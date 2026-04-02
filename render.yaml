@@ -3,8 +3,8 @@ services:
     name: iamblank
     runtime: static
     branch: main
-    buildCommand: npm install -g pnpm && pnpm install && pnpm --filter @workspace/iamblankworkspace run build
-    staticPublishPath: ./artifacts/iamblankworkspace/dist/public
+    buildCommand: npm install -g pnpm && pnpm install && pnpm --filter @workspace/web run build
+    staticPublishPath: ./artifacts/web/dist/public
     envVars:
       - key: NODE_ENV
         value: production
