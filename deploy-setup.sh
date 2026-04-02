@@ -4,9 +4,9 @@
 # First-time Replit → GitHub → Render setup script
 #
 # Pull into any Replit project and run:
-#   curl -s https://raw.githubusercontent.com/tmenna/REPO/main/scripts/deploy-setup.sh | bash
+#   curl -s https://raw.githubusercontent.com/tmenna/deployment-template/main/deploy-setup.sh | bash
 # Or if already cloned:
-#   bash scripts/deploy-setup.sh
+#   bash deploy-setup.sh
 # =============================================================================
 
 set -e
