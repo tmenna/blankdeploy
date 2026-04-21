@@ -1,12 +1,12 @@
 services:
   - type: web
-    name: IAMBLANK
+    name: blankdeploy
     plan: free
     runtime: node
     region: oregon
     branch: main
-    buildCommand: npm install -g pnpm && pnpm install --include=dev && pnpm --filter @workspace/api-server run build
-    startCommand: pnpm --filter @workspace/api-server run start
+    buildCommand: npm install -g pnpm && pnpm install --include=dev && pnpm --filter @workspace/web run build
+    startCommand: pnpm --filter @workspace/web run start
     healthCheckPath: /api/healthz
     envVars:
       - key: NODE_ENV
