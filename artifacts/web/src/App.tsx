@@ -9,7 +9,7 @@ const queryClient = new QueryClient();
 function Home() {
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
-      <p className="text-2xl font-bold text-gray-900">I AM BLACK</p>
+      <p className="text-2xl font-bold text-gray-900">I AM BLANK</p>
     </div>
   );
 }
